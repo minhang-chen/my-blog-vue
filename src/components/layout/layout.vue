@@ -1,5 +1,5 @@
 <template>
-	<div class="v-layput">
+	<div class="v-layput g-bg-white">
 		<blg-top></blg-top>
 		<blg-left></blg-left>
 	</div>

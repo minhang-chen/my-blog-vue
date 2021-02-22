@@ -26,9 +26,9 @@ export default ({
 </script>
 <style lang="scss">
 .v-pages {
+	min-height: 100vh;
 	width: 80%;
 	margin: auto;
-	
 }
 </style>
 

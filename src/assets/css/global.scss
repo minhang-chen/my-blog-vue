@@ -4,6 +4,7 @@ body {
 }
 li,ul {
 	list-style: none;
+	padding: 0;
 }
 .g-opration {
 	cursor: pointer;
@@ -13,4 +14,7 @@ li,ul {
 }
 .g-b {
 	border: 1px solid #dfdfdf;
+}
+.g-bg-white {
+	background: #fff;;
 }
