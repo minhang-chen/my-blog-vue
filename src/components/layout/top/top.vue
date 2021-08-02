@@ -13,25 +13,28 @@
 			<span class="g-opration">分享</span>
 		</div>
 		<div class="_item">
-			<span class="g-opration">我的</span>
+			<span class="g-opration" @click="handleToMine">我的</span>
 		</div>
 	</div>
 </template>
 
 <script>
 export default {
-	data () {
+	components: {},
+	data() {
 	   return {
 
 	   };
 	},
 
-	components: {},
-
 	computed: {},
 
-	methods: {}
-}
+	methods: {
+		handleToMine() {
+			this.$router.push('/mine');
+		}
+	}
+};
 </script>
 <style lang='scss'>
 .c-tabs {

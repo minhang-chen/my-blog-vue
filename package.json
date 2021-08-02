@@ -12,6 +12,7 @@
 	"author": "mario",
 	"license": "ISC",
 	"devDependencies": {
+		"babel-eslint": "^10.0.3",
 		"cross-env": "^7.0.2",
 		"css-loader": "^3.4.2",
 		"eslint": "^6.8.0",
@@ -25,7 +26,13 @@
 		"webpack": "^4.42.0",
 		"webpack-cli": "^3.3.11",
 		"webpack-dev-server": "^3.10.3",
-		"webpack-merge": "^4.2.2"
+		"webpack-merge": "^4.2.2",
+		"eslint-config-airbnb-base": "^14.0.0",
+		"eslint-plugin-babel": "^5.3.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-markdown": "^1.0.0",
+		"eslint-plugin-vue": "^6.2.2",
+		"eslint-watch": "^6.0.1"
 	},
 	"dependencies": {
 		"element-ui": "^2.13.0",

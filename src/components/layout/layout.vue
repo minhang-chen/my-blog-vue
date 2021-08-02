@@ -1,7 +1,7 @@
 <template>
 	<div class="v-layput g-bg-white">
-		<blg-top></blg-top>
-		<blg-left></blg-left>
+		<blg-top />
+		<blg-left />
 	</div>
 </template>
 <script>
@@ -9,7 +9,7 @@ import Top from "./top/top.vue";
 import Left from "./left/left.vue";
 
 export default {
-	name: 'Layout',
+	name: 'layout',
 	components: {
 		'blg-top': Top,
 		'blg-left': Left
@@ -17,10 +17,10 @@ export default {
 	data() {
 		return {
 
-		}
+		};
 	}
 
-}
+};
 </script>
 <style lang="scss">
 

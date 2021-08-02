@@ -2,6 +2,7 @@
 const path = require('path'); // node的基本包，用来处理路径
 const { VueLoaderPlugin } = require("vue-loader");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
 const ENV_IS_DEV = process.env.NODE_ENV === 'development';
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -18,8 +19,8 @@ module.exports = {
 			filename: `css/initial.[name].css`
 		}),
 		new HtmlWebpackPlugin({
-            template: './src/index.html',
-        })
+			template: './src/index.html',
+		})
 	],
 	module: {
 		rules: [
@@ -33,7 +34,7 @@ module.exports = {
 				use: [
 					'vue-style-loader',
 					'css-loader',
-					'sass-loader',
+					'sass-loader'
 				]
 			},
 			{
@@ -47,6 +48,6 @@ module.exports = {
 		]
 	},
 	devServer: {
-			
+		historyApiFallback: true,
 	}
-}
+};
